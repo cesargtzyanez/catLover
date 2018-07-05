@@ -6,6 +6,10 @@
   width: 150px;
 }
 
+.cat-container {
+  text-align: center;
+}
+
 .cat {
   max-width: 150px;
   cursor: pointer;

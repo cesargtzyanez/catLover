@@ -9,12 +9,28 @@ function Cat(cat) {
 }
 
 function createCats() {
+  deleteAllCats();
   const numCats = parseInt(document.querySelector('#catsInput').value);
 
   for (let i = 0; i < numCats; i++){
     const catFile = catFiles[ parseInt( Math.random() * 6 ) ];
     const newCat = new Cat(catFile);
+
+    newCat.addEventListener('click', playAudio);
+
     document.querySelector('.cat-container').appendChild(newCat);
   }
+}
+
+function deleteAllCats() {
+  const catList = document.querySelector('.cat-container');
+  while (catList.hasChildNodes()){
+    catList.removeChild( catList.firstChild );
+  }
+}
+
+function playAudio() {
+  const audio = document.querySelector('#audio');
+  audio.play();
 }
 

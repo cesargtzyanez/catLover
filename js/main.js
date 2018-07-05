@@ -1,4 +1,4 @@
-const catFiles = ['cat1.png', 'cat2.png', 'cat3.jpg', 'cat4.png', 'cat5.png', 'cat6.png'];
+const catFiles = ['cat1.png', 'cat2.jpg', 'cat3.jpg', 'cat4.png', 'cat5.jpg', 'cat6.jpg'];
 const catNames = ['Garfield', 'Lion-O', 'Snarf', 'Kathy', 'Leo', 'Batman'];
 
 function Cat(name) {

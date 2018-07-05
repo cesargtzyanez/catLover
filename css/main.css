@@ -7,16 +7,18 @@
 }
 
 .cat-container {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .cat {
-  max-width: 150px;
   cursor: pointer;
+  width: 250px;
   transition: 0.5s;
-  border-radius: 75px;
+  border-radius: 100%;
   border: solid 1px #000;
-  margin: 10px;
+  margin: 20px;
   opacity: 0.3;
   transform: rotate(30deg);
 }

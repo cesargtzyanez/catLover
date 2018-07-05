@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.logo{
+.logo {
   width: 150px;
 }
 
@@ -17,7 +17,7 @@
   border-radius: 75px;
   border: solid 1px #000;
   margin: 10px;
-  opacity: 0.7;
+  opacity: 0.3;
   transform: rotate(30deg);
 }
 
